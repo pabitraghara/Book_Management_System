@@ -58,20 +58,13 @@ A full-stack web application for managing books with user authentication, built 
 
 ## Installation
 
-### 1. Clone the repository
-
-```bash
-git clone <repository-url>
-cd book-management-system
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 
 ```bash
 npm run install:all
 ```
 
-### 3. Database Setup
+### 2. Database Setup
 
 Create a PostgreSQL database named `book_management`:
 
@@ -79,7 +72,7 @@ Create a PostgreSQL database named `book_management`:
 CREATE DATABASE book_management;
 ```
 
-### 4. Environment Configuration
+### 3. Environment Configuration
 
 Update the database configuration in `backend/.env`:
 
@@ -94,7 +87,7 @@ JWT_EXPIRES_IN=7d
 PORT=3001
 ```
 
-### 5. Run the application
+### 4. Run the application
 
 ```bash
 yarn run start
