@@ -1,0 +1,25 @@
+{
+  "name": "book-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Book Management System with React, NestJS, and PostgreSQL",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "backend:dev": "cd backend && npm run start:dev",
+    "frontend:dev": "cd frontend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build && cd ../backend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "book-management",
+    "react",
+    "nestjs",
+    "postgresql",
+    "sequelize",
+    "swagger"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
